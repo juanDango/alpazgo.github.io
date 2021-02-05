@@ -3,7 +3,7 @@ import { Heading, VStack, Box } from "@chakra-ui/react";
 import Typewriter from "typewriter-effect";
 
 const IndexPage = () => {
-  const ref = useRef(null);
+  const ref = useRef(document.createElement("div"));
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
