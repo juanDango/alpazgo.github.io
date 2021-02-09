@@ -5,14 +5,14 @@
       "file": "static/chunks/0.js"
     }
   ],
-  "components/Sections/Banner": [
+  "components/Banner/Banner": [
     {
-      "id": "./components/Sections/Banner.tsx",
-      "file": "static/chunks/1.js"
+      "id": "./components/Banner/Banner.tsx",
+      "file": "static/chunks/2.js"
     },
     {
       "id": "./node_modules/typewriter-effect/dist/react.js",
-      "file": "static/chunks/1.js"
+      "file": "static/chunks/2.js"
     }
   ]
 }
