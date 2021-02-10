@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: #0e020b;
+  color: #C0C0C0 !important;
+}
+
+section, header{
+  height: 100vh; 
+  background-color:#15152ca6 !important;
+}
+
+
+.active, .btn {
+  background: #002d3f !important;
+}
+
+
+nav{
+    background-color:#0D0D0D;
+}
+
+p {
+    font-size: calc(1em + 1vw) !important; 
+}
+
+footer {
+    height: 10vh;
+    background-color: #0D0D0D;
+    color: #C0C0C0;
+}
+
+/* Place text in the middle of the image */
+.banner-inside{
+  font-family: 'Roboto', bold;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.banner-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+img{
+  height: 20vh;
+}
+.perfil-img {
+  object-fit: cover;
+  height: 50vh;
+}

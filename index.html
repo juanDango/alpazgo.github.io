@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio / Alvaro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class='banner-img card mb-4 container-fluid' id='banner'>
+
+        <div class='banner-inside '>
+            <h1 class='row no-gutters justify-content-center align-items-center'>Hi, my name is Alvaro</h1>
+            <div class='row no-gutters justify-content-center align-items-center'><img class="rounded-circle"
+                    alt='Foto de Perfil' src="img/pp.jpg" /></div>
+
+
+            <a href="#about" class="btn btn-primary mt-2 row no-gutters justify-content-center align-items-center">About
+                me</a>
+        </div>
+
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#banner">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#projects">My projects</a>
+                <a class="nav-item nav-link" href="#hobbies">Hobbies</a>
+                <a class="nav-item nav-link" href="#experience">Experience</a>
+            </div>
+        </div>
+    </nav>
+    <main class='container'>
+        <section class="card mb-4 h-100 no-gutters justify-content-center align-items-center row" id="about">
+            <div class="card-body row">
+                <div class="col-md-4">
+                    <img src="img/pp.jpg" class="card-img perfil-img" alt="perfil">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title">About me</h2>
+                        <p class="card-text">Student of Computer Science. love anything about Music, Japan, Programming,
+                            Mathematics and Linux. Arch Linux User
+                        </p>
+                        <h3>E-mail</h3>
+                        <a target="_top" href="mailto:ys.tarazona@uniandes.edu.co" target="_blank">
+                            <p class="card-text">aj.ayte(at)uniandes.edu.co</p>
+                        </a>
+                        <h3>Github</h3>
+                        <a href="//github.com/alpazgo" target="_blank">
+                            <p class="card-text">@alpazgo</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="card mb-4 h-100 no-gutters justify-content-center align-items-center row" id='projects'>
+            <div class="card-body ">
+                <h2 class="card-title">My Projects</h2>
+                <hr>
+                <div class="row align-items-end">
+                    <div class="col-12 col-md-6 my-2">
+                        <h3>Web Aplication in Go</h3>
+                        <div class="overflow-auto ar-container">
+                            <a href="https://redcarpet.film/" target="_blank"><img width="100%" height="100%"
+                                    class="img-fluid ar-content" src="img/redcarpet.png" alt="RedCarpe"></img></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 my-2">
+                        <h3>Automatation scripts and repos</h3>
+                        <div class="list-group">
+                            <a href="https://github.com/kaitsubaka/ScriptAsistencia" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">ScriptAsistencia</h5>
+                              </div>
+                              <div class="mb-1">Attendance script for sicua remote sessions.</div>
+                            </a>
+                            <a href="https://github.com/kaitsubaka/ASCIIFinite" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">ASCIIFinite</h5>
+                              </div>
+                              <div class="mb-1">Simple terminal video player.</div>
+                            </a>
+                            <a href="https://github.com/kaitsubaka/PC-ProyectoFinal" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Hodgkin y Huxley math model</h5>
+                              </div>
+                              <div class="mb-1">This was my final project in scientific programming</div>
+                            </a>
+                          </div>
+                          
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="card mb-4" id='hobbies'>
+
+
+        </section>
+        <section class="card mb-4" id='experience'>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-12 text-center">
+                    Coded with love - aj.ayte@uniandes.edu.co
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
