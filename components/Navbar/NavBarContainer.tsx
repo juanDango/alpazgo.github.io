@@ -19,7 +19,7 @@ const NavBarContainer = ({ children }: Props) => {
       wrap="wrap"
       w="100%"
       py={3}
-      px={14}
+      px={[4, 6, 14]}
       style={{ position: "fixed", zIndex: 999 }}
     >
       {children}

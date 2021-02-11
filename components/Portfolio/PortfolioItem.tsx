@@ -12,7 +12,7 @@ export default function PortfolioItem({ title, children, image }: Props) {
   return (
     <Box maxW="sm" overflow="hidden">
       <Heading mb={6}>{title}</Heading>
-      <Image src={image} height="200px" width="fill" alt={image} />
+      <Image src={image} height="fill" width="fill" alt={image} />
       {children}
     </Box>
   );

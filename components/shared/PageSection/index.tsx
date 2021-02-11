@@ -19,20 +19,18 @@ export default function PageSection({
   return (
     <SimpleGrid
       my={14}
-      px={[1, 14]}
-      mx={[1, 14]}
-      minChildWidth="120px"
+      px={[0, 2, 14]}
+      mx={[0, 2, 14]}
+      minChildWidth="200px"
       spacing={14}
       gridAutoFlow="dense"
       id={id}
     >
-      <Box gridColumn={right ? 2 : 1}>
+      <Box gridColumn={[1, 1, right ? 2 : 1]}>
         <Heading mb={5}>{title}</Heading>
         <Center>{children}</Center>
       </Box>
-      <Center display={["none", "inline-block"]} height="100%">
-        {image}
-      </Center>
+      <Center height="100%">{image}</Center>
     </SimpleGrid>
   );
 }

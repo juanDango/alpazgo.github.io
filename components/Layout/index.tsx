@@ -19,7 +19,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
     </Head>
     <Navbar />
     <Flex direction="column" h="100%">
-      <Box mt={14} grow={1} mx={14} px={14}>
+      <Box mt={14} grow={1} mx={[4, 6, 14]} px={[4, 6, 14]}>
         {children}
       </Box>
       <Box flexShrink={0}>
