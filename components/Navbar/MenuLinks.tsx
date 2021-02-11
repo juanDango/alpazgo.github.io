@@ -18,12 +18,12 @@ const MenuLinks = ({ isOpen }: Props) => {
         direction={["column", "row", "row", "row"]}
         pt={[4, 4, 0, 0]}
       >
-        <MenuItem to="/">About</MenuItem>
-        <MenuItem to="/">Interests</MenuItem>
-        <MenuItem to="/">Experience</MenuItem>
-        <MenuItem to="/">Portfolio</MenuItem>
-        <MenuItem to="/">Contact </MenuItem>
-        <MenuItem to="/">
+        <MenuItem to="/#about">About me</MenuItem>
+        <MenuItem to="/#interests">Interests</MenuItem>
+        <MenuItem to="/#experience">Experience</MenuItem>
+        <MenuItem to="/#portfolio">Portfolio</MenuItem>
+        <MenuItem to="/media">Media</MenuItem>
+        <MenuItem to="https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:14891906/">
           <Button rounded="md" colorScheme="blue">
             Resume
           </Button>

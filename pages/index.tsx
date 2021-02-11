@@ -5,7 +5,7 @@ import Interests from "components/Interests";
 import Experience from "components/Experience";
 import Portfolio from "components/Portfolio";
 
-const BannerNoSSR = dynamic(() => import("components/Banner/Banner"), {
+const BannerNoSSR = dynamic(() => import("components/Banner"), {
   ssr: false,
 });
 

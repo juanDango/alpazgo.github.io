@@ -1,17 +1,18 @@
 import React from "react";
 import { Box, Heading } from "@chakra-ui/react";
+import Image from "next/image";
 
 type Props = {
   title: string;
   children: string;
-  image?: string;
+  image: string;
 };
 
 export default function PortfolioItem({ title, children, image }: Props) {
   return (
-    <Box>
+    <Box maxW="sm" overflow="hidden">
       <Heading mb={6}>{title}</Heading>
-      {image}
+      <Image src={image} height="200px" width="fill" alt={image} />
       {children}
     </Box>
   );

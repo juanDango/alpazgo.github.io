@@ -1,29 +1,38 @@
 import React, { ReactNode } from "react";
-import { SimpleGrid, Box, Heading } from "@chakra-ui/react";
+import { SimpleGrid, Box, Heading, Center } from "@chakra-ui/react";
 
 type Props = {
   title: string;
   children: ReactNode;
   image?: ReactNode;
   right?: boolean;
+  id?: string;
 };
 
-export default function PageSection({ title, image, children, right }: Props) {
+export default function PageSection({
+  title,
+  image,
+  children,
+  right,
+  id,
+}: Props) {
   return (
     <SimpleGrid
-      mt={12}
-      mb={12}
+      my={14}
+      px={[1, 14]}
+      mx={[1, 14]}
       minChildWidth="120px"
-      spacing={12}
+      spacing={14}
       gridAutoFlow="dense"
+      id={id}
     >
-      <Box gridColumn={right ? 2 : 1} height="200px">
+      <Box gridColumn={right ? 2 : 1}>
         <Heading mb={5}>{title}</Heading>
-        {children}
+        <Center>{children}</Center>
       </Box>
-      <Box height="200px" borderWidth={2}>
+      <Center display={["none", "inline-block"]} height="100%">
         {image}
-      </Box>
+      </Center>
     </SimpleGrid>
   );
 }
