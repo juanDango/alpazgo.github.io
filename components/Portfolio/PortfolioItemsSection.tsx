@@ -4,7 +4,7 @@ import PortfolioItem from "components/Portfolio/PortfolioItem";
 
 export default function Index() {
   return (
-    <SimpleGrid minChildWidth="300px" spacing={14}>
+    <SimpleGrid minChildWidth="200px" spacing={14}>
       <PortfolioItem title="UBits Analytics" image="/portfolio/ubits.png">
         Analytics platform developed for YC company Ubits so that companies like
         Davivienda, Falabella, Starbucks and HomeCenter and monitor the learning

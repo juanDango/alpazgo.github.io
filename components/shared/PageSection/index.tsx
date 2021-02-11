@@ -21,7 +21,7 @@ export default function PageSection({
       my={14}
       px={[0, 2, 14]}
       mx={[0, 2, 14]}
-      minChildWidth="200px"
+      minChildWidth="150px"
       spacing={14}
       gridAutoFlow="dense"
       id={id}
