@@ -1,0 +1,6 @@
+Hola Alvaro, te hago el comentario acá porque no entiendo react y ando súper perdido
+Me parece una página súper interesante, lo único que me parece raro es que, en pantalla
+completa, los videos e imágenes en la sección de hobbies se ven muy alargados pero no altos
+y se ve un poco raro.
+Cuando pasé el código por el verificador de HTML, haciendo uso de la url de tu página, me di cuenta
+que había un total de 14 errores, para que tengas en cuenta.
